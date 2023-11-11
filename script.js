@@ -2,7 +2,6 @@
 let data  = document.getElementById('counter');
 let count = 0;
 function counter(){
-	data.innerHTML = `${count++}`;
-	alert(count);
+	alert(data.innerHTML = `${count++}`);
 	
 }
